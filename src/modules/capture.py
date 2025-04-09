@@ -24,7 +24,7 @@ WINDOWED_OFFSET_TOP = 36
 WINDOWED_OFFSET_LEFT = 10
 
 # The top-left and bottom-right corners of the minimap
-MM_TL_TEMPLATE = cv2.imread('assets/minimap_tl_template.png', 0)
+MM_TL_TEMPLATE = cv2.imread('assets/minimap_tl_template_2.png', 0)
 MM_BR_TEMPLATE = cv2.imread('assets/minimap_br_template.png', 0)
 
 MMT_HEIGHT = max(MM_TL_TEMPLATE.shape[0], MM_BR_TEMPLATE.shape[0])
